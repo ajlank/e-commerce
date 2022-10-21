@@ -1,0 +1,18 @@
+.cart-container{
+    background-color:red;
+    height:100vh;
+    width:20%;
+    margin-left: auto;
+    overflow:hidden;
+    position:absolute;
+    right:0;
+    top:5.4rem;
+}
+.inner-cart-container{
+    height:100%;
+    overflow-y:auto;
+    text-align:center;
+}
+.inner-cart-container::-webkit-scrollbar{
+    display:none;
+}

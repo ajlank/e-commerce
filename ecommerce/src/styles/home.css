@@ -1,0 +1,45 @@
+.container .navbar{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:13px 22px;
+    background-color:black;
+    color: white;
+}
+.container .cart-component{
+    background-color:red;
+    height:100vh;
+    width:100%;
+}
+.card .card-header {
+    height:210px;
+    width:210px;
+    margin:0 auto;
+}
+.card .card-header img{
+    height:100%;
+    width:100%;
+}
+.card .card-body{
+    display:flex;
+    justify-content:space-around;
+    text-align:center;
+}
+
+.card-cover{
+    display:grid;
+    grid-template-columns: auto auto auto auto;
+    cursor:pointer;
+}
+.card{
+    background-color:rgb(224, 222, 222);;
+    padding:12px;
+    margin:12px;
+    
+}
+.outer-cover h2{
+    text-align:center;
+}
+.shoping-cart{
+    font-size:1.7rem;
+}
